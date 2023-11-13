@@ -7,7 +7,6 @@
 }
 
 body{
-    height: 100dvh;
     background-color: whitesmoke;
 }
 
@@ -61,7 +60,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    height: 300px;
+    min-height: 300px;
     background-color: whitesmoke;
     margin: 70px 0 10px 50px;
     padding: 20px;
@@ -105,21 +104,35 @@ body{
 
 .footer{
     background-color: #D4B17B;
-    height: 100px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .contenedor-footer{
+    width: 600px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px 5px 15px 5px;
+    justify-content: space-around;
 
 }
 
 .contenedor-footer svg{
-    width: 30px;
-    height: 30px;
-    margin-left: 120px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.svg {
+    display: flex;
+    align-items: center;
+}
+
+footer div p  {
+    margin: 20px 10px;
+    font-size: 20px;
 }
 
 
