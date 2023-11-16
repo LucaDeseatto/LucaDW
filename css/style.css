@@ -102,38 +102,139 @@ body{
     align-items: center;
 }
 
+.main{
+    min-height: 100vh;
+}
+
+.main-servicios{
+    min-height: 100vh;
+    margin-inline: 30px;
+    margin-top: 30px;
+}
+
+
 .footer{
     background-color: #D4B17B;
     height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .contenedor-footer{
-    width: 600px;
+    width: 850px;
     display: flex;
     justify-content: space-around;
-
+    margin-left: 40px;
 }
 
 .contenedor-footer svg{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
 }
-
-
 
 .svg {
     display: flex;
     align-items: center;
 }
 
-footer div p  {
+.footer div a  {
+    color: black;
+    text-decoration: none;
     margin: 20px 10px;
     font-size: 20px;
 }
+
+.contenedor-texto{
+    background-color:whitesmoke;
+    width: 500px;
+    height: 500px;
+    margin: 10px 450px;
+}
+
+.contenedor-texto h2{
+    font-weight: 700;
+}
+
+
+.contenedor-h2-p{
+    margin-bottom: 100px;
+}
+
+.contenedor-h2-p h2{
+    font-size: 40px;
+}
+
+.contenedor-h2-p p{
+    font-size: 20px;
+}
+
+.contenedor-h2-p-2 h2{
+    font-size: 40px;
+}
+
+.contenedor-h2-p-2 p{
+    font-size: 20px;
+}
+
+.contenedor-cartita{
+    margin-block: 10px;
+}
+
+.cartita{
+    width: 260px;
+    background-color:gainsboro;
+    padding: 10px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-inline: 30px;
+    margin-block: 20px;
+}
+
+.cartita-imagen{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cartita-titulo{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cartita-parrafo{
+    font-size: 14px;
+}
+
+.cartita-button{
+    background-color: #D4B17B;
+    color: whitesmoke;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-inline: 80px;
+}
+
+.main-galeria{
+    min-height: 100vh;
+    margin-inline: 30px;
+    margin-top: 30px;
+}
+
+.cartita-galeria{
+    width: 100%;
+}
+
+.carta{
+    width: 260px;
+    padding: 10px;
+    display: inline-block;
+    margin-inline: 30px;
+    margin-block: 20px;
+}
+
+
+
 
 
 
