@@ -7,6 +7,7 @@
 }
 
 body{
+    max-width: 1440px;
     background-color: whitesmoke;
 }
 
@@ -114,6 +115,7 @@ body{
 
 
 .footer{
+    margin-top: auto;
     background-color: #D4B17B;
     height: 140px;
     display: flex;
