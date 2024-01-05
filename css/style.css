@@ -32,8 +32,13 @@ body{
 }
 
 .nav{
+    
     background-color: #000;
-    height: 100px;
+    
+    /* & svg{
+        fill: #ffffff;
+    } */
+    
     & .navbar-brand{
         font-weight: 600;
         font-size: 30px;
@@ -52,7 +57,7 @@ body{
             & li{
                 & a{
                     font-weight: 500;
-                    font-size: 18px;
+                    font-size: 1rem;
                     margin-right: 10px;
                     text-transform: uppercase;
                 }
@@ -86,6 +91,8 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+
+
 
 .titulo__1{
     font-size: 36px;
@@ -131,6 +138,12 @@ body{
     height: 200px;
 }
 
+@media (max-width: 450px){
+    .contenedor-fotos img{
+        width: 300px;
+    }
+}
+
 .footer{
     width: 100%;
     margin-top: auto;
@@ -172,7 +185,7 @@ body{
 }
 
 .contenedor-texto h2{
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .contenedor-h2-p{
@@ -210,20 +223,23 @@ body{
 .titulo__nosotros{
     margin: 20px;
     font-size: 40px;
+    font-weight: 800;
     color: #000000;
     text-align: center;
 }
 
 .titulo__servicios{
-    margin: 30px;
+    margin: 20px;
     font-size: 40px;
+    font-weight: 800;
     color: #ffffff;
     text-align: center;
 }
 
 .titulo__contact{
-    margin: 30px;
+    margin: 20px;
     font-size: 40px;
+    font-weight: 800;
     color: #000000;
     text-align: center;
 }
@@ -271,6 +287,7 @@ body{
 .titulo__galeria{
     margin: 30px;
     font-size: 40px;
+    font-weight: 800;
     color: #000000;
     text-align: center;
 }
